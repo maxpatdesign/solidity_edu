@@ -107,8 +107,7 @@ contract SimpleAuction {
         return true;
     }
 
-    /// End the auction and send the highest bid
-    /// to the beneficiary.
+    /// End the auction and send the highest bid to the beneficiary.
     function auctionEnd() external {
         // It is a good guideline to structure functions that interact
         // with other contracts (i.e. they call functions or send Ether)
